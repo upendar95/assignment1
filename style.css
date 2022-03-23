@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background:radial-gradient(aqua,white)
+}
+
+/* Navbar Start */
+#navbar {
+    /* background-color: #3944F7; */
+    background: linear-gradient(red,blue);
+}
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navbar-content > h2 {
+    color: white;
+}
+.navbar-list {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+.navbar-list li {
+    list-style: none;
+}
+.navbar-list li a {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-list li a:hover { 
+    background-color: white;
+    color: #3944F7;
+}
+/* Navbar End */
+
+/* About Start */
+#about-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* background: linear-gradient(aqua,white) */
+}
+.profile-image-wrapper > img {
+    width: ;
+    height: ;
+    border-radius: 100px;
+}
+.personal-information {
+    margin-left: 10px;
+}
+.personal-information > h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+.personal-information > p {
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 34px;
+}
+.personal-skills {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 28px;
+
+}
+.personal-skills li {
+    list-style: none;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.personal-skills li:hover {
+    background-color: white;
+    color: aqua;
+}
+/* About End */
+
+/* Contact Start */
+#contact-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* background: linear-gradient(aqua,white);
+    opacity: 0.2; */
+}
+.contact-information, 
+.contact-form {
+    width: 100%;
+    border: 1px solid black;
+}
+.contact-information{
+padding-top: 20px;
+padding-left: 100px;
+}
+.phone,.email,.address{
+    padding-top: 20px;
+}
+i{
+  padding-right: 20px;  
+}
+.mb-3{
+    padding-top: 10px;
+}
+.contact-form{
+    padding-left: 10px;
+}
+
+
+/* Contact End */
+
+/* Footer Start */
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+}
+.footer-social-icons-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+li{
+    list-style: none;
+}
+li a{
+    font-size: 30px;
+}
+  
+ 
+
+#linkedin{
+    transition: all 0.5s ease-in-out;
+
+}
+#linkedin:hover{
+color: #0077b5;
+font-weight: 900;
+}
+#twitter{
+    transition: all 0.5s ease-in-out;
+}
+#twitter:hover{  
+    color:	#1DA1F2;
+    font-weight: 900;
+}
+#instagram{
+    transition: all 0.5s ease-in-out;
+}
+#instagram:hover{
+    color:#e4405f;
+    font-weight: 900;
+}
+#youtube{
+    transition: all 0.5s ease-in-out;
+}
+#youtube:hover{
+    color: #FF0000;
+    font-weight: 900;
+}
+#github{
+    transition: all 0.5s ease-in-out;
+}
+#github:hover{
+    color: purple;
+    font-weight: 900;
+}
+.footer-heading >h2 {
+    padding-top: 10px;
+    color: white;
+    font-size: 35px;
+    padding-right: 30px;
+}
+/* Footer End */
